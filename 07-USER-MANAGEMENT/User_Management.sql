@@ -6,13 +6,13 @@ identified BY <sidhut5911>;
   GRANT connect,resource,unlimited tablespace
   TO <c##mritunjay>;
    
-   --conncet  (allow users to  login)
+   --connect  (allow users to  login)
    --resource (allow users to create database objects i.e.. tables,views,indexs,procedures)
    --unlimited tablespace (allow user to insert records)
    
    --modify system password__
     --login as SYS as SYS dba
-	--then don't enter password/just enter enter key
+	--then don't enter password/just enter (enter key)
 	
   ALTER USER system
   identified BY 12345;
